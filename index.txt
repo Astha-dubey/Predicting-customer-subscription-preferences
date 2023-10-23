@@ -1,0 +1,8 @@
+emailID string , subscribe_channelID integer,subscribeWatch_time integer
+emailID string , commentchannelID integer,commentWatch_time integer
+emailID string , account_channelID integer,accountWatch_time integer
+emailID string , likes_channelID integer,likesWatch_time integer
+channelID,ChannelName, Genere (String type value can be ('educational','Entertainment','Streaming','Technology','Music','news','Live','Gaming','Shopping'))
+emailID,userName(String),Age,Gender,Location
+here emailID is common in all dataset
+subscribe_channelID,commentchannelID,account_channelID,likes_channelID is also common

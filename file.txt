@@ -1,0 +1,24 @@
+1 Data Preparation:
+Combine the relevant datasets, including user information, channel information, and interaction data (subscription data).
+Preprocess the data to handle missing values, encode categorical variables (e.g., gender, location, genre), and create user-item interaction matrices.
+2.Split Data:
+Split the dataset into a training set and a test set to evaluate the model's performance.
+3.Model Training
+Train the chosen model on the training data, using appropriate loss functions and optimization techniques.
+4. Prediction:
+Use the trained model to make predictions for each user, suggesting the top channels they are likely to subscribe to in the future.
+5. Model Selection SVD (Singular Value Decomposition): SVD is a matrix factorization technique used in collaborative filtering-based recommendation systems. It decomposes the user-item interaction matrix into three matrices: U (user factors), Σ (singular values), and V^T (item factors). These matrices capture latent features that represent users and items in a lower-dimensional space. The model predicts user-item interactions based on the dot product of these factors.
+- We load the user-item interaction data from CSV files.
+- We create a Surprise Dataset object using the data.
+- We split the data into training and testing sets.
+- We train SVD-based models for different types of user interactions (subscribe, comment, account, likes).
+- We make predictions for unseen interactions based on the trained models.
+
+Not completed
+1. Frotend Enhancement
+ Applying style and design improve Graphical user interface and make it more user friendly so that he can easily used it
+
+Next Period
+1 Feedback Loop:Implement mechanisms for collecting user feedback on the recommendations and use this feedback to continually improve the recommendation model.
+2 Deployment:Deploy the recommendation system in your application, website, or platform.
+
